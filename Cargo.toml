@@ -6,4 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bit = "0.1.1"
 bitvec = "1.0.1"
+# Debugging only
+# Following should not be included in releases
+cli-table = "0.4.7"
