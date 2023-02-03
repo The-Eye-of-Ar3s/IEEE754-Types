@@ -3,7 +3,7 @@ pub mod binary;
 
 #[cfg(test)]
 mod tests {
-    use super::binary::{Binary32};
+    use super::binary::binary32::{Binary32};
 
     #[test]
     fn binary_32_into_f32() {
